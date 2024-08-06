@@ -786,7 +786,6 @@ ul {
 }
 .corporex-navbar .megamenu {
   padding: 20px 12px;
-  border: 1px solid red!important;
 }
 .corporex-navbar .megamenu li {
   margin-right: 0;
@@ -6821,6 +6820,10 @@ transform-origin: left;
 .buttom_styled_custom:hover{
   background: #213f97;
 }
+.buttom_styled_custom_bg_light{
+  border-radius: 0;
+  margin-top: 10px;
+}
 .buttom_styled_custom_bg_light:hover{
   background: #60a4fa;
 }
@@ -6978,8 +6981,16 @@ transform-origin: left;
 }
 .section_header h2{
   color: #213f97;
+  text-transform: none!important;
 }
 /* ================= about css ================= */
+
+
+/* ================= Recent posts css ================= */
+.posts_section_header{
+  text-align: center;
+}
+/* ================= Recent posts css ================= */
 
 
 /* ================= services css ================= */
@@ -7045,6 +7056,128 @@ padding-left: 0;
    }
 }
 /* ================= services css ================= */
+
+
+/* ================= Certification css ================= */
+.certification_div .image{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.certification_div .image img{
+  max-height: 120px;
+  width: 100%;
+  object-fit: contain;
+}
+@media screen and (max-width:992px){
+  .certification_div{
+    display: flex;
+   }
+   .certification_div .image{
+    padding: 0 20px;
+  }
+}
+/* ================= Certification css ================= */
+
+
+/* ================= Why Choose css ================= */
+.why_choose_row{
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  gap: 25px;
+}
+.why_choose_item{
+  background: url('/img/why-bg.png');
+  padding: 40px 20px;
+  border-radius: 4px;
+}
+.why_choose_item:hover{
+  background: #213f97;
+}
+.why_choose_item:hover .service_icon img{
+  transform: rotate(360deg);
+}
+.why_choose_item .service_icon img{
+  background: #fff;
+  max-height: 100px;
+  padding: 5px;
+  border-radius: 100%;
+  object-fit: contain;
+  transition: transform 0.5s ease;
+}
+.why_choose_item h3{
+  color: #fff;
+}
+.why_choose_item p{
+  color: #ddd;
+}
+@media screen and (max-width:992px){
+  .why_choose_row{
+    grid-template-columns: 50% 50%;
+  }
+}
+@media screen and (max-width:768px){
+  .why_choose_row{
+    grid-template-columns: 100%;
+  }
+}
+/* ================= Why Choose css ================= */
+
+
+/* ================= CTA css ================= */
+.cta_section_header{
+  position: relative;
+  z-index: 1;
+}
+.cta_section_header h2{
+  color: #fff;
+}
+.cta_section_header p{
+  color: #ddd;
+}
+.cta_btn_1{
+  margin-right: 12px;
+  border: 2px solid #60a4fa;
+}
+/* .cta_btn_1:hover{
+ background: #fff;
+ color: #1c1919;
+ font-weight: 600;
+} */
+.cta_btn_2{
+  background: #fff;
+  color: #1c1919;
+  font-weight: 600;
+  border: 2px solid #ccc;
+}
+.cta_btn_2:hover{
+  background: #ddd;
+  color: #1c1919;
+  font-weight: 600;
+  border: 2px solid #fff;
+}
+.cta_section{
+  background: linear-gradient(rgba(33, 63, 151, 0), rgba(33, 63, 151, 0)), url('/img/cta_bg.jpeg');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.cta_image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transform: scale(1.6);
+  position: relative;
+  z-index: 0;
+  bottom: -120px!important;
+}
+@media screen and (max-width:992px){
+  .cta_col_image{
+    display: none;
+  }
+}
+/* =================  CTA css ================= */
 
 
 /* ================= footer css ================= */
