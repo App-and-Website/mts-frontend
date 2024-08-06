@@ -6983,6 +6983,9 @@ transform-origin: left;
   color: #213f97;
   text-transform: none!important;
 }
+.call_back_form select{
+  color: #888;
+}
 /* ================= about css ================= */
 
 
@@ -7175,6 +7178,16 @@ padding-left: 0;
 @media screen and (max-width:992px){
   .cta_col_image{
     display: none;
+  }
+}
+@media screen and (max-width:576px){
+  .cta_section{
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width:400px){
+  .cta_btn_1{
+    margin-bottom: 16px;
   }
 }
 /* =================  CTA css ================= */
