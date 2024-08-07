@@ -6815,6 +6815,9 @@ transform-origin: left;
    align-items: center;
    text-align: center;
 }
+.arrow_down i{
+  font-weight: 600;
+}
 .hero_content_wrap{
  display: flex;
  flex-direction: column;
