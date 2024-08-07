@@ -1280,7 +1280,7 @@ ul {
   margin-bottom: 30px;
 }
 .intro-05 .horizontal-callback .item-wrapper {
-  margin-right: 24px;
+  margin-left: 24px;
 }
 .intro-05 .intro-content h2 span {
   display: block;
@@ -6940,6 +6940,9 @@ transform-origin: left;
     margin-top: -5px;
     width: 2px;
     height: 20px;
+  }
+  .intro-05 .horizontal-callback .item-wrapper {
+    margin-left: 0px;
   }
 }
 @media screen and (max-width:768px){
