@@ -29,7 +29,7 @@
 </head>
 <body class="home-01">
 	
-	<header class="site-header">
+	<header class="site-header" id="navbar">
 		<div class="top-bar clearfix">
 			<div class="container">
 				<ul class="list-inline pull-left quick-contact topbar_quick_contact">
@@ -504,20 +504,20 @@
 						<h3 class="widget-title"><span>Quick Links</span></h3>
 						
 						<ul class="ul_list_footer">
-							<li><a href="index.html"></a>Home</li>
-							<li><a href=""></a>About Us</li>
-							<li><a href=""></a>Blogs</li>
-							<li><a href=""></a>Calculators</li>
-							<li><a href=""></a>Contact Us</li>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="">About Us</a></li>
+							<li><a href="">Blogs</a></li>
+							<li><a href="">Calculators</a></li>
+							<li><a href="">Contact Us</a></li>
 						</ul> <!-- .footer-social -->
 					</div> <!-- col-lg-3 col-md-6 -->
 					<div class="col-lg-3 col-md-6 recent-post-widget">
 						<h3 class="widget-title"><span>Our Services</span></h3>
 						<ul class="ul_list_footer">
-							<li><a href=""></a>Personal Accounting & Tax Services </li>
-							<li><a href=""></a>Business Services</li>
-							<li><a href=""></a>Self Managed Super Fund</li>
-							<li><a href=""></a>Mortgages</li>	
+							<li><a href="">Personal Accounting & Tax Services</a> </li>
+							<li><a href="">Business Services</a></li>
+							<li><a href="">Self Managed Super Fund</a></li>
+							<li><a href="">Mortgages</a></li>	
 						</ul> <!-- .post-list -->
 					</div> <!-- col-lg-3 col-md-6 -->
 					<div class="col-lg-3 col-md-6 recent-post-widget">
@@ -575,5 +575,16 @@
 	<script src="js/mixitup.min.js"></script>
 	<script src="js/jquery.easypiechart.min.js"></script>
 	<script src="js/script.js"></script>
+
+	<script>
+        window.addEventListener('scroll', function() {
+            var navbar = document.getElementById('navbar');
+            if (window.scrollY > 200) {
+                navbar.classList.add('stickynav');
+            } else {
+                navbar.classList.remove('stickynav');
+            }
+        });
+	</script>
 </body>
 </html>

@@ -6726,6 +6726,29 @@ hr,
 
 
 /* ================= header css ================= */
+#navbar {
+  transition: all 0.3s ease;
+}
+.stickynav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background: #fff;
+  padding: 0;
+  box-shadow: rgba(33, 63, 151, 0.1) 0px 10px 10px -10px;
+}
+.stickynav .top-bar{
+padding: 10px 0!important;
+}
+.stickynav .navbar-01{
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+}
+.stickynav .navbar-01 .logo_header img{
+  transform: scale(1);
+}
+
 .megamenu_custom ul{
   text-align: center;
   background: #1e3faf;
