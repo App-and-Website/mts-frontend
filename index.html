@@ -577,14 +577,21 @@
 	<script src="js/script.js"></script>
 
 	<script>
-        window.addEventListener('scroll', function() {
-            var navbar = document.getElementById('navbar');
-            if (window.scrollY > 200) {
-                navbar.classList.add('stickynav');
-            } else {
-                navbar.classList.remove('stickynav');
-            }
-        });
+		$(window).on('scroll', function() {
+			var $navbar = $('#navbar');
+			if ($(window).scrollTop() > 200) {
+				if (!$navbar.hasClass('stickynav')) {
+					$navbar.addClass('stickynav').stop().animate({ top: '0' }, 200); // Slide down
+				}
+			} else {
+				if ($navbar.hasClass('stickynav')) {
+					$navbar.stop().animate({ top: '-100px' }, 100, function() {
+						$navbar.removeClass('stickynav'); // Remove class after animation
+					}); // Slide up
+				}
+			}
+		});
 	</script>
+	
 </body>
 </html>
