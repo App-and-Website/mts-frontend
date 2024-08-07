@@ -7159,9 +7159,17 @@ padding-left: 0;
 
 
 /* ================= CTA css ================= */
+.cta_row{
+  margin-left: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
 .cta_section_header{
   position: relative;
   z-index: 1;
+  text-align: center;
 }
 .cta_section_header h2{
   color: #fff;
@@ -7195,6 +7203,9 @@ padding-left: 0;
   background-size: cover;
   background-position: center;
   overflow: hidden;
+}
+.cta_col_image{
+ position: absolute;
 }
 .cta_image img{
   height: 100%;
