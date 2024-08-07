@@ -7007,6 +7007,7 @@ transform-origin: left;
   background: #eff6ff;
   padding: 50px 30px;
   border-radius: 4px;
+  transition: all 0.3s ease-in-out;
 }
 .service_item:nth-child(2){
   background: #fff1f1;
