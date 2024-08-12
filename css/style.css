@@ -792,7 +792,7 @@ ul {
 }
 .navbar-01 {
   margin-bottom: 0;
-  border: none;
+  border: none; 
   padding-top: 36px;
   padding-bottom: 36px;
 }
@@ -808,7 +808,7 @@ ul {
   font-size: 18px;
 }
 .navbar-01 .navbar-items li {
-  margin-right: 30px;
+  margin-right: 25px;
 }
 .navbar-01 .navbar-items li a {
   color: #222;
