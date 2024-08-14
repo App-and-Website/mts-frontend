@@ -6837,6 +6837,10 @@ transform-origin: left;
   margin-bottom: 25px;
   text-transform: none;
 }
+.breadcrumb_section h2{
+  line-height: 60px;
+}
+
 .centered_content_hero p{
   width: 60%;
   color: #fff;
@@ -6953,10 +6957,22 @@ transform-origin: left;
   .intro-05 .horizontal-callback .item-wrapper {
     margin-left: 0px;
   }
+  .breadcrumb_section{
+    height: 500px;
+  }
+  .breadcrumb_section .hero_background img{
+    height: 500px;
+  }
 }
 @media screen and (max-width:768px){
   .hero_background{
     height: 50vh;
+  }
+  .breadcrumb_section{
+    height: 420px;
+  }
+  .breadcrumb_section .hero_background img{
+    height: 420px;
   }
   .centered_content_hero h2{
     width: 96%;
@@ -7159,7 +7175,7 @@ padding-left: 0;
 /* ================= Why Choose css ================= */
 .why_choose_row{
   display: grid;
-  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-columns: 32% 32% 32%;
   gap: 25px;
 }
 .why_choose_item{
@@ -7343,5 +7359,80 @@ padding-left: 0;
     padding-bottom: 18px;
   }
 }
+/* ================= footer css ================= */
+
+
+/* ================= about page css ================= */
+.custom_pd_section{
+  padding: 80px 0;
+}
+.custom_pd_section_top{
+  padding: 80px 0 0 0;
+}
+.row_aligned_center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eff6ff;
+  border-radius: 6px;
+}
+.col_no_pd{
+  height: 100%;
+  margin: 0px!important;
+  padding: 0px!important;
+}
+.img_type_1{
+  height: 100%;
+}
+.img_type_1 img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.left_pd{
+  margin:0px 65px;
+}
+.grid_row{
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.vision_section{
+  margin-bottom: 40px;
+}
+@media screen and (max-width:1200px){
+  .grid_row{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
+@media screen and (max-width:992px){
+  .grid_row{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .left_pd{
+    margin: 40px 16px;
+  }
+  .custom_padding_about_btm.sec_2{
+    margin-bottom: 60px;
+  }
+}
+@media screen and (max-width:768px){
+  .custom_pd_section.sec_1{
+    padding: 0;
+    margin-bottom: 50px;
+  }
+  .row_aligned_center{
+    background: #fff;
+  }
+  .left_pd{
+    margin: 40px 0 20px 0;
+  }
+  .values_header{
+    margin-bottom: 25px;
+  }
+}
+/* ================= footer css ================= */
 
 
