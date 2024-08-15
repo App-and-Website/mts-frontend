@@ -7466,6 +7466,50 @@ padding-left: 0;
     margin-top: -15px;
   }
 }
-/* ================= footer css ================= */
+/* ================= about page css ================= */
 
+
+/* ================= contact page css ================= */
+.contact_item{
+  background: #eff6ff;
+  min-height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.interested_service{
+  color: #999;
+}
+.map_location{
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.map_box iframe{
+  height: 420px!important;
+  width: 100%!important;
+}
+@media screen and (max-width:768px){
+  .contact_section{
+    padding-top: 0;
+  }
+  .contact_item{
+    margin-bottom: 0!important;
+    border-top: 2px solid #ccc;
+  }
+  .contact_row{
+    margin-bottom: 50px;
+  }
+  .contact_us_breadcrumb{
+    height: 320px;
+  }
+  .contact_us_breadcrumb .hero_background img{
+    object-fit: cover;
+    object-position: right;
+  }
+  .map_box iframe{
+    height: 320px!important;
+    width: 100%!important;
+  }
+}
+/* ================= contact page css ================= */
 
