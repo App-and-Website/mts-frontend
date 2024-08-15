@@ -7400,6 +7400,23 @@ padding-left: 0;
 .vision_section{
   margin-bottom: 40px;
 }
+.cta_light .cta_section_header h2{
+  color: #203e99;
+}
+.cta_light .cta_section_header p{
+  color: #666;
+}
+.about_certf_row{
+  display: flex;
+  justify-content: center;
+}
+.about_certf_row .certification_header{
+  text-align: center;
+  width: 85%;
+}
+.cta_light{
+  padding-bottom: 20px;
+}
 @media screen and (max-width:1200px){
   .grid_row{
     display: grid;
@@ -7417,6 +7434,10 @@ padding-left: 0;
   .custom_padding_about_btm.sec_2{
     margin-bottom: 60px;
   }
+  .about_certf_row .certification_header{
+    text-align: center;
+    width: 100%;
+  }
 }
 @media screen and (max-width:768px){
   .custom_pd_section.sec_1{
@@ -7431,6 +7452,18 @@ padding-left: 0;
   }
   .values_header{
     margin-bottom: 25px;
+  }
+  .cta_light{
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+  .cta_light .cta_btn_2{
+    margin-top: 0;
+  }
+}
+@media screen and (max-width:436px){
+  .cta_light .cta_btn_2{
+    margin-top: -15px;
   }
 }
 /* ================= footer css ================= */
