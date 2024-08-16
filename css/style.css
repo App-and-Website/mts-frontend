@@ -7504,6 +7504,7 @@ padding-left: 0;
     height: 320px;
   }
   .contact_us_breadcrumb .hero_background img{
+    height: 320px;
     object-fit: cover;
     object-position: right;
   }
@@ -7514,3 +7515,70 @@ padding-left: 0;
 }
 /* ================= contact page css ================= */
 
+
+/* ================= Service page css ================= */
+.Service_page_why_choose_section{
+  padding-bottom: 0px;
+}
+.Service_page_why_choose_section .section_header{
+  margin-bottom: 50px;
+}
+.service_page_form .form_row{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 10px;
+  margin-right: 10px;
+}
+.service_page_form #comment{
+  height: 70px;
+}
+.Service_page_call_back_form h2{
+  font-size: 20px;
+}
+.service_page_certification{
+  padding-bottom: 0;
+}
+.service_page_certification .certification_div{
+  justify-content: flex-start;
+}
+.service_page_certification .aff_list{
+  padding: 0;
+}
+.service_page_certification .aff_list li{
+  padding-top: 16px;
+}
+.service_page_certification .aff_list li .span1{
+  font-weight: 600;
+}
+.Service_page_why_choose_section .why_item_serv .wrapper{
+  background: #eff6ff;
+  padding: 20px;
+  border-radius: 6px;
+}
+.Service_page_why_choose_section .icon-box{
+  height: 50px;
+  width: 50px;
+  color: #203e99!important;
+  background: #bedaff;
+  font-weight: 600;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.service_page_faq{
+  padding-top: 0!important;
+  padding-bottom: 60px;
+}
+.service_page_faq .section_header{
+  margin-bottom: 30px;
+}
+.service_page_bottom_cta h2{
+  margin-bottom: 30px;
+}
+@media screen and (max-width:768px){
+.service_page_cta{
+   margin-top: 0;
+}
+}
