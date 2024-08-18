@@ -7582,3 +7582,54 @@ padding-left: 0;
    margin-top: 0;
 }
 }
+
+.consultation_main{
+  display: flex;
+  justify-content: center;
+}
+.book_form_header h2{
+  color: #fff;
+  text-align: left;
+  font-size: 36px;
+}
+.book_form_header p{
+  color: #fff;
+  text-align: left;
+  padding-bottom: 20px;
+}
+.consultation_form .item-wrapper{
+  margin-left: 0!important;
+  padding: 60px;
+}
+.consultation_form textarea{
+  height: 120px!important;
+}
+.consultation_form button{
+  width: 160px;
+}
+.consultation_form select{
+   color: #888;
+}
+.consultation_form .submit_button{
+  display: flex;
+}
+@media screen and (max-width:768px){
+  .consultation_form .item-wrapper{
+    margin-left: 0!important;
+    padding: 50px 20px;
+}
+}
+
+@media screen and (max-width:576px){
+  .book_form_header h2{
+    font-size: 28px;
+  }
+  .consultation_form .form_row{
+    grid-template-columns: 100%;
+    margin-right: 0;
+  }  
+  .consultation_form .form_row .form_item:nth-child(1){
+    margin-bottom: 16px!important;
+  }  
+}
+
